@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		1509F1962C90FAF5009EAE7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1952C90FAF5009EAE7B /* AppDelegate.swift */; };
 		1509F1982C90FAF5009EAE7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1972C90FAF5009EAE7B /* SceneDelegate.swift */; };
-		1509F19A2C90FAF5009EAE7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1992C90FAF5009EAE7B /* ViewController.swift */; };
-		1509F19D2C90FAF5009EAE7B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1509F19C2C90FAF5009EAE7B /* Base */; };
 		1509F19F2C90FAF6009EAE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1509F19E2C90FAF6009EAE7B /* Assets.xcassets */; };
 		1509F1A22C90FAF6009EAE7B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1509F1A12C90FAF6009EAE7B /* Base */; };
 		1509F1AD2C90FAF6009EAE7B /* GithubProjectBySeanAllenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1AC2C90FAF6009EAE7B /* GithubProjectBySeanAllenTests.swift */; };
 		1509F1B72C90FAF6009EAE7B /* GithubProjectBySeanAllenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1B62C90FAF6009EAE7B /* GithubProjectBySeanAllenUITests.swift */; };
 		1509F1B92C90FAF6009EAE7B /* GithubProjectBySeanAllenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1B82C90FAF6009EAE7B /* GithubProjectBySeanAllenUITestsLaunchTests.swift */; };
+		1509F1C62C911553009EAE7B /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1C52C911553009EAE7B /* SearchVC.swift */; };
+		1509F1C82C91158F009EAE7B /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1C72C91158F009EAE7B /* FavoritesListVC.swift */; };
+		1509F1CA2C911E80009EAE7B /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1C92C911E80009EAE7B /* GFButton.swift */; };
+		1509F1CC2C912231009EAE7B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509F1CB2C912231009EAE7B /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		1509F1922C90FAF5009EAE7B /* GithubProjectBySeanAllen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubProjectBySeanAllen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1509F1952C90FAF5009EAE7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1509F1972C90FAF5009EAE7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1509F1992C90FAF5009EAE7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1509F19C2C90FAF5009EAE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1509F19E2C90FAF6009EAE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1509F1A12C90FAF6009EAE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1509F1A32C90FAF6009EAE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		1509F1B22C90FAF6009EAE7B /* GithubProjectBySeanAllenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubProjectBySeanAllenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1509F1B62C90FAF6009EAE7B /* GithubProjectBySeanAllenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubProjectBySeanAllenUITests.swift; sourceTree = "<group>"; };
 		1509F1B82C90FAF6009EAE7B /* GithubProjectBySeanAllenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubProjectBySeanAllenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1509F1C52C911553009EAE7B /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		1509F1C72C91158F009EAE7B /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		1509F1C92C911E80009EAE7B /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		1509F1CB2C912231009EAE7B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		1509F1942C90FAF5009EAE7B /* GithubProjectBySeanAllen */ = {
 			isa = PBXGroup;
 			children = (
+				1509F1CB2C912231009EAE7B /* GFTextField.swift */,
+				1509F1C92C911E80009EAE7B /* GFButton.swift */,
 				1509F1952C90FAF5009EAE7B /* AppDelegate.swift */,
 				1509F1972C90FAF5009EAE7B /* SceneDelegate.swift */,
-				1509F1992C90FAF5009EAE7B /* ViewController.swift */,
-				1509F19B2C90FAF5009EAE7B /* Main.storyboard */,
+				1509F1C52C911553009EAE7B /* SearchVC.swift */,
+				1509F1C72C91158F009EAE7B /* FavoritesListVC.swift */,
 				1509F19E2C90FAF6009EAE7B /* Assets.xcassets */,
 				1509F1A02C90FAF6009EAE7B /* LaunchScreen.storyboard */,
 				1509F1A32C90FAF6009EAE7B /* Info.plist */,
@@ -233,7 +239,6 @@
 			files = (
 				1509F19F2C90FAF6009EAE7B /* Assets.xcassets in Resources */,
 				1509F1A22C90FAF6009EAE7B /* Base in Resources */,
-				1509F19D2C90FAF5009EAE7B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1509F19A2C90FAF5009EAE7B /* ViewController.swift in Sources */,
+				1509F1CC2C912231009EAE7B /* GFTextField.swift in Sources */,
+				1509F1C82C91158F009EAE7B /* FavoritesListVC.swift in Sources */,
+				1509F1CA2C911E80009EAE7B /* GFButton.swift in Sources */,
+				1509F1C62C911553009EAE7B /* SearchVC.swift in Sources */,
 				1509F1962C90FAF5009EAE7B /* AppDelegate.swift in Sources */,
 				1509F1982C90FAF5009EAE7B /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1509F19B2C90FAF5009EAE7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1509F19C2C90FAF5009EAE7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1509F1A02C90FAF6009EAE7B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,9 +446,8 @@
 				INFOPLIST_FILE = GithubProjectBySeanAllen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,9 +472,8 @@
 				INFOPLIST_FILE = GithubProjectBySeanAllen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
