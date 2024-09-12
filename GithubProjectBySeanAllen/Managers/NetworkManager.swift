@@ -6,10 +6,13 @@
 //
 
 import Foundation
+import UIKit
 
 class NetworkManager {
     static let shared = NetworkManager()
-    let baseURL = "https://api.github.com/users/"
+    
+    private let baseURL = "https://api.github.com/users/"
+    let cache = NSCache<NSString, UIImage>()
     private init() {}
     
     func getFollowers(for username: String, page: Int, completion: @escaping (Result<[Follower], GFError>) -> Void) {
@@ -42,7 +45,7 @@ class NetworkManager {
                 
                 let followers = try decoder.decode([Follower].self, from: data)
                 completion(.success(followers))
-            } catch (let giterror) {
+            } catch {
                 completion(.failure(.invalidData))
             }
         }
