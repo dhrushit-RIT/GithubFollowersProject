@@ -41,6 +41,7 @@
 		15A4E6E02C976B0700B221C8 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4E6DF2C976B0700B221C8 /* GFFollowerItemVC.swift */; };
 		15A4E6E42C9781EC00B221C8 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4E6E32C9781EC00B221C8 /* Date+Extensions.swift */; };
 		15A4E6E62C9796CD00B221C8 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4E6E52C9796CD00B221C8 /* PersistanceManager.swift */; };
+		15A4E6E82C97A5A700B221C8 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4E6E72C97A5A700B221C8 /* FavoriteCell.swift */; };
 		15DEA3F32C9263CD008FF976 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA3F22C9263CD008FF976 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,7 @@
 		15A4E6DF2C976B0700B221C8 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		15A4E6E32C9781EC00B221C8 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		15A4E6E52C9796CD00B221C8 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		15A4E6E72C97A5A700B221C8 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		15DEA3F22C9263CD008FF976 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				1509F1E92C916D9B009EAE7B /* FollowerCell.swift */,
+				15A4E6E72C97A5A700B221C8 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				1509F1E22C915E67009EAE7B /* User.swift in Sources */,
 				15A4E6DE2C9769D900B221C8 /* GFRepoItemVC.swift in Sources */,
 				1509F1EA2C916D9B009EAE7B /* FollowerCell.swift in Sources */,
+				15A4E6E82C97A5A700B221C8 /* FavoriteCell.swift in Sources */,
 				1509F1EC2C916DEB009EAE7B /* GFAvatarImageView.swift in Sources */,
 				15A4E6E62C9796CD00B221C8 /* PersistanceManager.swift in Sources */,
 				15A4E6D02C9695F000B221C8 /* UserInfoVC.swift in Sources */,
